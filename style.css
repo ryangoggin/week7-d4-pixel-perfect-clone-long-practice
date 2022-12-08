@@ -59,6 +59,10 @@ footer {
         cursor: pointer;
     }
 
+    .header__search#search > input:focus {
+        outline: none;
+    }
+
     .header__search#search:hover {
         cursor: pointer;
         border: solid 1px #f05537;
@@ -178,14 +182,16 @@ footer {
         padding: 0% 70% 0% 5%;
     }
 
-
     .header__search#search > input {
         border-style: none;
         border: none;
         background-image: none;
         background-color: white;
         padding: 10px;
-        cursor: pointer;
+    }
+
+    .header__search#search > input:focus {
+        outline: none;
     }
 
     .header__actions {
