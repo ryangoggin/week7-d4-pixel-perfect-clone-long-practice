@@ -39,6 +39,12 @@ footer {
         margin: 0 40px 0;
     }
 
+    .header__actions {
+        display: flex;
+        justify-content: space-between;
+        width: 33%;
+    }
+
     .header__button {
         cursor: pointer;
     }
