@@ -3,6 +3,7 @@
 <head>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.1/css/all.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="https://appacademy-open-assets.s3.us-west-1.amazonaws.com/Modular-Curriculum/content/week-07/EventSight/e.png">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,13 +12,84 @@
 
 <body>
     <header>
-
+        <div class="header-container">
+            <a href="https://www.google.com" id="title" class="header__button">
+                <h1 class="page-title">EventSight</h1>
+            </a>
+            <a class="header__button">
+                <div class="header__search" id="search">
+                    <i class="fas fa-search"></i>
+                    <input type="search" value placeholder="Search Events">
+                </div>
+            </a>
+            <div class="header__actions">
+                <a href="https://www.google.com" id="event" class="header__button">
+                Create Event
+                </a>
+                <a href="https://www.google.com" id="log-in" class="header__button">
+                    Log In
+                </a>
+                <a href="https://www.google.com" id="sign-up" class="header__button">
+                    Sign Up
+                </a>
+            </div>
+        </div>
     </header>
+
     <main>
-
+        <div class="categories-container">
+            <div class="categories__heading">
+                <h2>Check out trending categories</h2>
+            </div>
+            <div class="categories-and-icons__container">
+                <a href="https://www.google.com" id="music" class="category__button">
+                    <i class="fas fa-music"></i> Music
+                </a>
+                <a href="https://www.google.com" id="health" class="category__button">
+                    <i class="fas fa-book-medical"></i> Health
+                </a>
+                <a href="https://www.google.com" id="outdoors" class="category__button">
+                    <i class="fas fa-tree"></i> Outdoors
+                </a>
+                <a href="https://www.google.com" id="pets" class="category__button">
+                    <i class="fas fa-dog"></i> Pets
+                </a>
+            </div>
+        </div>
+        <div class="events-container">
+            <div class="events__heading">
+                <h2>Events in New York</h2>
+            </div>
+            <div class="events__group">
+                <div class="events__event" id="event-1">
+                    <img src="https://appacademy-open-assets.s3.us-west-1.amazonaws.com/Modular-Curriculum/content/week-07/EventSight/new-york-city-sunset-skyline-river.jpg" alt="event-1-picture">
+                    <a href="https://www.google.com" class="event__title">Disco New York Halloween</a>
+                    <p class="date">October 31, 2023</p>
+                    <p class="price">Starts at $54.98</p>
+                </div>
+                <div class="events__event" id="event-2">
+                    <img src="https://appacademy-open-assets.s3.us-west-1.amazonaws.com/Modular-Curriculum/content/week-07/EventSight/new-york-city-brooklyn-bridge-river.jpg" alt="event-2-picture">
+                    <a href="https://www.google.com" class="event__title">Tech Outdoor Networking Event</a>
+                    <p class="date">September 7, 2023</p>
+                    <p class="price">$10 Donation</p>
+                </div>
+                <div class="events__event" id="event-3">
+                    <img src="https://appacademy-open-assets.s3.us-west-1.amazonaws.com/Modular-Curriculum/content/week-07/EventSight/new-york-manhattan-city-street-yellow-cabs.jpg" alt="event-3-picture">
+                    <a href="https://www.google.com" class="event__title">Online Dance Party</a>
+                    <p class="date">August 31, 2023</p>
+                    <p class="price">FREE on Zoom!</p>
+                </div>
+            </div>
+        </div>
+        <div class="see-more__container">
+            <a href="https://www.google.com" id="see-more" class="see-more__button">
+                See More
+            </a>
+        </div>
     </main>
-    <footer>
 
+    <footer>
+        <p class="footer-text">@2022 EventSight</p>
     </footer>
 </body>
 </html>
