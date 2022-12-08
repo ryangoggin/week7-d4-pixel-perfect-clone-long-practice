@@ -1,144 +1,110 @@
-# Pixel Perfect Clone Long Practice
+# Clone Long Practice
 
-As a developer, there will be times when someone will ask you to create a new
-web page based on a designer-created render showing _exactly_ what the
-page _must_ look like.  For interviews, you may be asked to do this or
-replicate an exact copy of an existing web page. You should have the tools and
-knowledge to be able to create a web page that looks aesthetically pleasing with
-multiple CSS effect features on it.  At the same time, you must ensure that your
-homepage is accessible. This is your chance to show off your skill
-and precision.
+In this project, you will create a clone of a target website
+using HTML and CSS. You will be guided by screenshots and an animated gif of
+what the finished project should look like. Make sure you read through all of
+the instructions and information in the __README.md__, __eventsight-content.md__
+and __score-card.md__ files before starting to code your project.
 
-## Project overview
+## Setup
 
-The objective of this project is to make a copy of a homepage of your choosing.
-You can either pick a homepage of a website you wish to copy or choose from a 
-list we have provided. Use what you've learned about wireframes, accessibility, 
-HTML, and CSS to apply styles to various elements.
+Note that the starter only includes instructions, site content resources, and a
+scorecard.
 
-You will accomplish this goal through completing the following phases:
+You will need to create your own HTML and CSS files at the root of the project
+directory.
 
-- **Phase 0**: Planning and Setup
-- **Phase 1**: Create the Clone
-- **Phase 2**: Deploy the Project
-- **Phase 3**: Evaluate for Accessibility
-- **Phase 4**: Refactor the Clone
-- **Phase 5**: Re-Deploy the Project
-- **Phase 6**: Re-Evaluate for Accessibility
-- **BONUS Phase 7**: Evaluate the Original Website
+## The Task
 
-If you run into any trouble during this project, check the Troubleshooting Notes
-at the bottom of this README file.
+Use the screenshots below to guide the structure and styling of your
+clone project. The project must include a header (navigation bar), a body with
+three event cards, and a footer. All content (text, images, icons) is provided
+to you in the __eventsight-content.md__ file. This file also includes the
+specific fonts and hex codes for colors you can use to match the target site.
 
-## Phase 0: Planning and Setup
+You must choose which semantic HTML elements to use as you structure your site.
 
-Choose a homepage to clone. If you are unsure of which you would like to work 
-with, consider choosing from this list:
+### Phase 0: Planning
 
-- [Medium][medium]
-- [Yelp][yelp]
-- [Genius][genius]
-- [Flickr][flickr]
-- [Hipcamp][hipcamp]
-- [Wufoo][wufoo]
+Take _at least_ 10 minutes to plan out your project before coding anything out.
+Consider the following planning steps.
 
-Your goal is to try to make as close to a pixel-perfect copy as possible with
-all of the CSS features that are presented on their homepage.
+- Draw a simple wireframe of the site, labeling semantic HTML elements
+  (including wrappers or containers enclosing other elements).
 
-Make sure you identify all of the HTML and CSS elements on the page. For
-example, if there is a hover effect over a button or an image carousel feature
-on the page, try to replicate that down to the pixel.
+- Compare the desktop and mobile views. Plan ahead around how you might
+  make your page responsive to desktop and mobile screen sizes.
 
-Set up a new project in VSCode, with an HTML file and CSS file.
+- Write a list of steps you'll complete, in order. For example, you might plan
+  to lay out the HTML elements, then style the header, then the footer, then the
+  body. The order is up to you, but make a plan, and follow it!
 
-## Phase 1: Create the Clone
+One of the most important keys to success on this project will be __time
+management__. Don't spend all of your time working on a single element! For each
+element or section of the page, work on it until it is "good enough for now",
+and then move on to the next section. Towards the end of the project, come
+back to each section to apply the finishing touches.
 
-Based on your planning notes, create your HTML and CSS files. Incorporate all of
-the HTML elements and any interactions that are present on the original
-homepage. 
 
-## Phase 2: Deploy the Project
+### Phase 1: Desktop View
 
-Deploy your clone project, following the instructions in the homework reading.
+Create a desktop view matching the screenshots below. Your project should
+match the images below at __1024px screen width__.
 
-## Phase 3: Evaluate for Accessibility
+Full page (desktop - 1024px screen width):
+![eventsight-desktop]
 
-Once your clone homepage is successfully deployed, navigate to the
-[Accessibility Checker] tool.
+Title and favicon:
+![eventsight-title-favicon]
 
-Type the URL for your deployed clone homepage into the Accessibility Checker.
+> _Note: Your address bar may show a different URL depending on how you open the
+> HTML file in the browser (for example, using `live-server` versus opening the
+> file directly in Chrome)._
 
-Read and analyze the results from the Accessibility Check.
+### Phase 2: Mobile View
 
-Is your website accessible and compliant?
+Implement a media query to create a mobile view. At __700px screen width__, your
+project should match the screenshot below.
 
-- If your clone is compliant, look at any secondary issues. What can be done to
-  improve the accessibility of your clone?
-- If your clone is NOT compliant, make a plan to address all urgent issues
-  first. Then, consider whether you can make improvements to any secondary
-  issues that come up in the results.
+Full page (mobile - 700px screen width):
+![eventsight-mobile-top]
+![eventsight-mobile-bottom]
 
-## Phase 4: Refactor the Clone
 
-Based on the results of phase 3, update your HTML and CSS files to improve the
-accessibility of your clone. As you refactor to improve accessibility, try to
-keep the site as pixel-perfect as possible, unless doing so creates an
-accessibility red flag.
+### Phase 3: Hover Effects and Mouse Pointers
 
-## Phase 5: Re-Deploy the Project
+Your project should include the effects and mouse pointers shown in the gif
+below:
 
-Re-deploy your updated clone project, following the instructions in the homework
-reading.
+![eventsight-hover-effects-top]
+![eventsight-hover-effects-bottom]
 
-## Phase 6: Re-Evaluate for Accessibility
 
-Navigate to the [Accessibility Checker] tool a second time.
 
-Type the URL for your updated deployed clone homepage into the Accessibility
-Checker.
+## Checklist
 
-Read and analyze the results from the Accessibility Check.
+Use this final checklist to ensure you have implemented all of the required
+elements and effects.
 
-- Were you able to improve the accessibility of your site?
-- What was improved? Where is there more room for improvement?
-- Is there anything on the original site, that when cloned perfectly, creates an
-  accessibility red flag?
+- [ ] Is all content from the __eventsight-content.md__ file displayed on the site?
+- [ ] Does the site layout match the desktop screenshot at 1024px screen width?
+- [ ] Does the site layout match the mobile screenshot at 700px screen width?
+- [ ] Do all elements have the same alignment and justification as the screenshots?
+- [ ] Do the mouse pointers over text, buttons, inputs, and hyperlinks match the gif?
+- [ ] Do the hover effects on hyperlinks and buttons match the gif?
+- [ ] Do the fonts and colors _generally_ resemble the screenshots?
+    - _These do not need to be an exact match_
+- [ ] Does the whitespacing (margins, padding, borders) _generally_ resemble the screenshots?
+    - _These do not need to be an exact match_
+- [ ] Do the book images have a box-shadow _similar to_ the screenshots?
+    - _These do not need to be an exact match_
 
-## BONUS Phase 7: Evaluate the Original Website
 
-If time allows, run the oiginal website that you chose to clone through the
-[Accessibility Checker].
-
-- What are the similarities between your clone's results, and the original
-  website's results?
-- What are the differences between your clone's results, and the original
-  website's results?
-- In what ways does the original website have room for improvement, in terms of accessibility?
-- In what ways does your clone still have room for improvement, in terms of accessibility?
-
-If any time remains, continue making improvements to your clone project in order
-to make it as pixel-perfect and accessible as possible.
-
-## Troubleshooting Notes
-
-The recommended [Accessibility Checker] limits how many websites you can scan in
-a day. If you reach your daily limit, you can use one of the other accessibility
-tools below to gather similar information about your website.
-
-  - [AChecker]
-  - [WAVE]
-
-If you have trouble deploying your clone, you can use the [AChecker] tool to
-scan your code for accessibility. This tool allows you to upload an HTML file or
-copy / paste HTML code instead of using the URL of a deployed site.
-
-[medium]: https://medium.com/
-[yelp]: https://www.yelp.com/
-[wufoo]: https://www.wufoo.com/
-[flickr]: https://flickr.com/
-[genius]: https://genius.com/
-[hipcamp]: https://www.hipcamp.com/
-
-[Accessibility Checker]: https://www.accessibilitychecker.org/
-[AChecker]: https://achecker.achecks.ca/checker/index.php
-[WAVE]: https://wave.webaim.org/
+[eventsight-desktop]: https://appacademy-open-assets.s3.us-west-1.amazonaws.com/Modular-Curriculum/content/week-07/EventSight/eventsight-desktop.png
+[eventsight-mobile-top]: https://appacademy-open-assets.s3.us-west-1.amazonaws.com/Modular-Curriculum/content/week-07/EventSight/eventsight-mobile-top.png
+[eventsight-mobile-bottom]: https://appacademy-open-assets.s3.us-west-1.amazonaws.com/Modular-Curriculum/content/week-07/EventSight/eventsight-mobile-bottom.png
+[eventsight-title-favicon]: https://appacademy-open-assets.s3.us-west-1.amazonaws.com/Modular-Curriculum/content/week-07/EventSight/eventsight-favicon.png
+[eventsight-hover-effects-top]: https://media.giphy.com/media/agzknLFhyLBUFnrUHJ/giphy.gif
+[eventsight-hover-effects-bottom]: https://media.giphy.com/media/zGPPvRNL9RWqVV3ZNX/giphy.gif
+[eventsight-hover-effects-top-movie-file]: https://appacademy-open-assets.s3.us-west-1.amazonaws.com/Modular-Curriculum/content/week-07/EventSight/eventsight-interactions-top.mp4
+[eventsight-hover-effects-bottom-movie-file]: https://appacademy-open-assets.s3.us-west-1.amazonaws.com/Modular-Curriculum/content/week-07/EventSight/eventsight-interactions-bottom.mp4
